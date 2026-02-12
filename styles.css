@@ -84,8 +84,16 @@ h3,
 
 .brand {
   text-decoration: none;
-  font-size: 1.15rem;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.brand-logo {
+  width: 246px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 nav {
@@ -562,6 +570,10 @@ th {
     order: 3;
     width: 100%;
     justify-content: center;
+  }
+
+  .brand-logo {
+    width: 210px;
   }
 
   .site-footer {
